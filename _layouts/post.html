@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% assign t = site.data.types[page.type] %}
+<div class="post-header">
+  <div class="prompt-line"><span class="user">ebad</span>@research<span class="path">:~$</span> cat {{ page.slug }}.md</div>
+  <h1>{{ page.title }}</h1>
+  <div class="post-meta">
+    <span class="perm {{ t.class }}">{{ t.perm }}</span>
+    &nbsp;&middot;&nbsp;{{ page.date | date: "%Y-%m-%d" }}
+    &nbsp;&middot;&nbsp;{{ content | number_of_words | divided_by: 200 | at_least: 1 }} min
+    &nbsp;&middot;&nbsp;{{ t.label }}
+    {% if page.tags.size > 0 %}
+      &nbsp;&middot;&nbsp;{{ page.tags | join: ", " }}
+    {% endif %}
+  </div>
+</div>
+
+<div class="post-body">
+  {{ content }}
+</div>
+
+<div class="callout">
+  <span class="lvl">[cross-post]</span> if you're reading this from LinkedIn, the canonical version with full code/config lives here. corrections and questions welcome via <a href="https://github.com/{{ site.author.github }}">GitHub</a>.
+</div>

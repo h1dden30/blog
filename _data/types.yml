@@ -1,0 +1,15 @@
+# Maps a post's `type` front-matter value to the permission-string
+# signature and color class used on the listing page and post header.
+# Add new types here if you introduce one (e.g. "til").
+research:
+  perm: "-r--r--r--"
+  class: "r"
+  label: "research"
+blog:
+  perm: "-rw-r--r--"
+  class: "b"
+  label: "blog"
+note:
+  perm: "-r--------"
+  class: "n"
+  label: "note"

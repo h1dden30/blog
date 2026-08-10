@@ -1,0 +1,13 @@
+<div class="prompt-line"><span class="user">ebad</span>@research<span class="path">:~$</span> whoami</div>
+<a href="{{ '/' | relative_url }}" style="text-decoration:none;">
+  <h1>ebad khan<span class="cursor"></span></h1>
+</a>
+<div class="tagline">{{ site.tagline }}</div>
+
+<nav>
+  <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>index</a>
+  <a href="{{ '/research/' | relative_url }}">research</a>
+  <a href="{{ '/blog/' | relative_url }}">blog</a>
+  <a href="{{ '/notes/' | relative_url }}">notes</a>
+  <a href="{{ '/about/' | relative_url }}">about</a>
+</nav>
