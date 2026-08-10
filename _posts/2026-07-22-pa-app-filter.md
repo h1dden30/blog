@@ -29,10 +29,10 @@ action: deny
 ```
 I would also recommend positioning this rule above existing rules so regular TLS is enforced before routing to your other policies.
 
-![security policy rule list showing block-quic positioned above block-social-media](/assets/images/img2.png)
+![security policy rule list showing block-quic positioned above block-social-media](/assets/images/Img2.png)
 
 After remediation, let's test:
 
-![traffic log showing QUIC denied by block-quic](/assets/images/img3.png)
+![traffic log showing QUIC denied by block-quic](/assets/images/Img3.png)
 
 Success! The QUIC protocol now blocked network-wide and TLS is forced. At this point, DPI becomes  easier and policies will be much more effective.
