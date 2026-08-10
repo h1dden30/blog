@@ -4,10 +4,6 @@ layout: default
 <div class="section-label">ls -la ./posts</div>
 {% include post-listing.html %}
 
-<div class="callout">
-  <span class="lvl">[notice]</span> permission bits above encode post type, not access &mdash; read-only (r) = research, read-write (rw) = blog, owner-only = short note.
-</div>
-
 <div class="section-label">cat ./about.md | head -3</div>
 <p style="color:var(--text-dim); font-size:13px; max-width:60ch;">
   {{ site.description }} Cross-posted to LinkedIn &mdash; full version always lives here first.
