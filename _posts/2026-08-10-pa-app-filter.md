@@ -10,7 +10,7 @@ I inadvertently put myself in this situation when experimenting with a PA-VM and
 
 SaaS applications like Facebook and Google have been preferring the use of QUIC over typical TLS for HTTPS traffic. For those that don't know what QUIC is, it's a protocol created by Google that enforces encryption at every step of the packet. It uses UDP too, so its much faster than your typical TLS packet.
 
-However, due to the nature of the encryption, NGFW's cannot inspect QUIC traffic like it can with normal HTTPS/TLS traffic (due to the TLS handshake). This theory is proven below:
+However, due to the nature of the encryption, some NGFW's have difficulty inspecting QUIC traffic like it can with normal HTTPS/TLS traffic (due to the TLS handshake). This theory is proven below:
 
 ![traffic log showing QUIC allowed through rule1](/assets/images/img1.png)
 
