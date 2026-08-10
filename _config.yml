@@ -1,13 +1,13 @@
 title: "ebad@research"
-tagline: "network security technician // detection engineering // homelab nebula"
-description: "Notes from the lab, writeups from HTB, and the occasional argument for why your detection rule is wrong."
+tagline: "network security technician // info & network security
+description: "Everything security related that I find interesting!"
 url: "https://blog.ebadkhan.dev"
 baseurl: ""
 
 author:
   name: Ebad Khan
   github: h1dden30
-  linkedin: "" # fill in your LinkedIn handle
+  linkedin: ""
 
 markdown: kramdown
 highlighter: rouge
