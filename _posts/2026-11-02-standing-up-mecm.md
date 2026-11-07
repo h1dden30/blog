@@ -1,7 +1,7 @@
 ---
 title: "Standing up MECM in 2026"
 type: blog
-tags: [homelab, mecm, sccm, active-directory]
+tags: [homelab, mecm, active-directory]
 ---
 
 This weekend I finally got around to standing up Microsoft Configuration Manager (MECM, or SCCM if you've been in IT longer than five minutes) in my homelab. It's a project I've wanted to tackle for about a year, and I finally pulled the trigger.

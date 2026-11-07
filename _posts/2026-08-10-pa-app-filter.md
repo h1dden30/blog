@@ -1,7 +1,7 @@
 ---
 title: "Hey Siri: Why do my application filters suck?"
 type: research
-tags: [pan-os, app-id]
+tags: [homelab, pan-os, app-id]
 ---
 
 I could probably bet my first born child that almost everyone reading this post has once created a firewall policy, thought it would be all sunshine and rainbows, then you hit the commit button and it just craps out. DNS breaks, users are upset, mailman is on fire. The world is ending.
